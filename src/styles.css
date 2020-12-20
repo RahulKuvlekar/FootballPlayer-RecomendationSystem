@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Permanent+Marker&display=swap");
+
+.App {
+  font-family: "Courgette", cursive;
+  text-align: center;
+}
+
+body {
+  background-color: #fef9c3;
+}
+
+hr {
+  margin: 1.3rem 0rem;
+  border: 1px solid #ca8a04;
+}
+
+.button-position {
+  padding: 0.7rem 1.3rem;
+  margin: 0.3rem 0.3rem;
+  border-radius: 0.5rem;
+  background: #fcd34d;
+  border: 1px solid black;
+}
+
+.button-position:active {
+  background-color: #f59e0b;
+}
+
+.list {
+  list-style: none;
+  border: 1px solid rgb(91, 86, 95);
+  background: #fde047;
+  margin: 1rem;
+  border-radius: 0.5rem;
+}
+.list .list-playerName {
+  text-align: left;
+  font-size: xx-large;
+  display: block;
+  padding: 1rem;
+}
+.list .list-rating {
+  font-size: medium;
+  display: block;
+  text-align: right;
+  padding: 0rem 1rem 1rem 1rem;
+}
+
+.container {
+  padding: 0rem 1rem;
+}
+
+.container-center {
+  max-width: 600px;
+  margin: auto;
+}
+
+.header {
+  padding: 2rem;
+  margin: auto;
+}
+.header .header-img {
+  display: block;
+  max-width: 550px;
+}
+.header .header-heading {
+  text-align: center;
+  font-size: x-large;
+  padding-top: 1rem;
+  color: var(--dark-green);
+}
